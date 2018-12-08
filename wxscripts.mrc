@@ -198,5 +198,5 @@ on *:text:!alt *:#: {
 
 ; FUCK OFF PRESSURE
 on *:text:!p *:#: {
-  msg $chan 4I don't have time for this shit. Use this: 12http://www.srh.noaa.gov/jetstream/atmos/images/mb_heights.jpg
+  msg $chan 4I don't have time for this shit. Use this: 12https://www.weather.gov/images/jetstream/atmos/mb_heights.jpg
 }
