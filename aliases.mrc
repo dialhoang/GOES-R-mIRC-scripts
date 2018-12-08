@@ -78,6 +78,60 @@
   echo 2 * There are4 %p 2users in channel.
 }
 
+;Copy of the beam party trick, but made much better.
+/beam {
+  var %rand = $rand(1,15)
+  var %victim = $$1-
+  if ((dzi isin %victim) || (draconis isin %victim) || (goes isin %victim) || (himawari isin %victim) || (meteosat isin %victim) || (insat isin %victim) || (fengyun isin %victim) || (feng yun isin %victim) || (fy isin %victim) || (%victim == itself)) {
+    %victim = $me
+  }
+  if (%rand == 1) { 
+    describe $chan GOES-R focuses a 1686MHz microwave beam on4 %victim from geostationary orbit.
+  }
+  if (%rand == 2) {
+    describe $chan GOES-R casts a deadly beam of microwaves on4 %victim from its perch 22,230 miles above the equator.
+  }
+  if (%rand == 3) {
+    describe $chan GOES-R throws 4,000 watts of 1.686GHz microwaves at4 %victim $+ .
+  }
+  if (%rand == 4) {
+    describe $chan GOES-R reduces4 %victim to vapor with a precisely-aimed burst of microwave photons.
+  }
+  if (%rand == 5) {
+    describe $chan GOES-R points 4,000 watts of deadly power at4 %victim $+ .
+  }
+  if (%rand == 6) {
+    describe $chan GOES-R beams4 %victim $+ , leaving only a smoldering crater in its wake.
+  }
+  if (%rand == 7) {
+    describe $chan GOES-R ionizes4 %victim with 4,000 joules per second of L-band photons. 
+  }
+  if (%rand == 8) {
+    describe $chan GOES-R emits a beam of 17.8cm photons at4 %victim $+ , leaving nothing but a smouldering crater.
+  }
+  if (%rand == 9) {
+    describe $chan GOES-R sends4 %victim to Kingdom Come with the help of a 1686MHz microwave beam.
+  }
+  if (%rand == 10) {
+    describe $chan GOES-R uses its 4,000 watt beam to wipe4 %victim off the face of the Earth.
+  }
+  if (%rand == 11) {
+    describe $chan GOES-R vaporizes4 %victim to the tune of 1.686GHz microwaves.
+  }
+  if (%rand == 12) {
+    describe $chan GOES-R releases 4,000 watts of microwaves on4 %victim $+ , ensuring a quick and painless death.
+  }
+  if (%rand == 13) {
+    describe $chan GOES-R beams4 %victim to a pile of ashes using 4,000 watts of 1686 MHz microwaves.
+  }
+  if (%rand == 14) {
+    describe $chan GOES-R targets4 %victim with a beam of 17.8 cm photons from geostationary orbit.
+  }
+  if (%rand == 15) {
+    describe $chan GOES-R eliminates4 %victim in a flash of 1686 MHz microwaves.
+  }
+}
+
 listops {
   echo  
   echo 4,1----------------------------------
